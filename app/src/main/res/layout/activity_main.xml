@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/mylistview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="104dp"
+                android:layout_height="86dp"
+                app:srcCompat="@drawable/w" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/StudentID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ID" />
+
+                <TextView
+                    android:id="@+id/StudentName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Name" />
+            </LinearLayout>
+        </LinearLayout>-->
+    </ListView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
