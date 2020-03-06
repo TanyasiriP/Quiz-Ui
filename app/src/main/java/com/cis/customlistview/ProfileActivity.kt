@@ -23,14 +23,11 @@ class ProfileActivity : AppCompatActivity() {
         val StudentName = findViewById<TextView>(R.id.StudentName)
 
 
-
-
-
         SaveButton.setOnClickListener {
             var i = Intent(this, MainActivity::class.java)
             startActivity(i)
 
-
         }
+
     }
 }
